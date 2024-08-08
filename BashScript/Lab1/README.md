@@ -1,5 +1,5 @@
 # LAB 1
-*** Create a script that asks for user name then send a greeting to him***
+***Create a script that asks for user name then send a greeting to him***
 ```
 #!/bin/bash 
 read -p "please enter your name" name
