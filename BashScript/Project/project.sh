@@ -1,8 +1,3 @@
-# Project
-
-![Getting Started](./Pictures/1.png)
-
-```
 #!/bin/bash
 
 # Function to display the database menu
@@ -105,7 +100,7 @@ drop_database() {
 }
 
 # Function to create a table in the connected database
-=create_table() {
+create_table() {
     dbname=$1
     dbpath="databases/$dbname"
 
@@ -323,9 +318,3 @@ while :; do
         *) echo -e "\033[1;31mInvalid choice, please try again.\033[0m" ;;
     esac
 done
-
-```
-![Getting Started](./Pictures/2.png)
-![Getting Started](./Pictures/3.png)
-![Getting Started](./Pictures/3.png)
-![Getting Started](./Pictures/5.png)

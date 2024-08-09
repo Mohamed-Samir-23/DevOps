@@ -1,0 +1,3 @@
+tx:int ty:int tz:int rx:int ry:int rz:int ts:int
+Primary Key: ts
+980 1002 1060 90 0 63 5356565
